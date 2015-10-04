@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg3">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Tag - Fill in Two to Three Keywords!"
+            android:id="@+id/nameTxt"
+            android:textColor="#000000"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hashTxt"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not Wanted After Date:"
+            android:paddingTop="30dp"
+            android:textColor="#000000"
+            android:id="@+id/dateTxt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:baselineAligned="false">
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerMonth"
+                android:entries="@array/months"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:textColor="#000000"
+                />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerDay"
+                android:layout_toRightOf="@id/spinnerMonth"
+                android:entries="@array/days"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:layout_alignParentEnd="true"
+                android:textColor="#000000"
+                />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerYear"
+                android:layout_toRightOf="@id/spinnerDay"
+                android:entries="@array/years"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:textColor="#000000"
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="Not Wanted After Time:"
+            android:textColor="#000000"
+            android:id="@+id/TimeTxt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:baselineAligned="false">
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:id="@+id/spinnerHour"
+                android:entries="@array/hours"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=":"
+                android:id="@+id/textView3"
+                android:textColor="#000000"
+                android:gravity="center_vertical"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:id="@+id/spinnerMinute"
+                android:entries="@array/minutes"
+                android:textColor="#000000"
+                />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+                android:id="@+id/spinnerAMPM"
+                android:entries="@array/am_or_pm"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Point Rewards (Enter a nonnegative integer)"
+            android:paddingTop="30dp"
+            android:textColor="#000000"
+            android:id="@+id/numTxt" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pointsTxt"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:paddingTop="30dp"
+            android:textColor="#000000"
+            android:id="@+id/LocationTxt" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionTxt"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Broadcast Message"
+            android:paddingTop="30dp"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+</ScrollView>
+<!-- From: file:/Users/yiningchen/Desktop/Together/ParseStarterProject/res/layout/activity_helpme.xml -->

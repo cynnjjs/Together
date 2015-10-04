@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebg"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="    "
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp"
+        android:id="@+id/sb0"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#424242"
+        android:layout_weight="0.2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Abla.Bla.18 53"
+        android:id="@+id/sb1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#424242"
+        android:layout_weight="0.1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Apple.Banana.17 30"
+        android:id="@+id/sb2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#424242"
+        android:layout_weight="0.1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Green.Bean.16 16"
+        android:id="@+id/sb3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#424242"
+        android:layout_weight="0.1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Blue.SKy.15 10"
+        android:id="@+id/sb4"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#424242"
+        android:layout_weight="0.1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Need.Sleep.17 8"
+        android:id="@+id/sb5"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#424242"
+        android:layout_weight="0.1" />
+</LinearLayout>
